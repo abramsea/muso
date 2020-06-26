@@ -1,31 +1,50 @@
 $('.intro__switch-link1').click(() => {
     $('#mu-so').hide();
     $('#qb').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-qb-2nd-generation')
 })
 
 $('.intro__switch-link2').click(() => {
     $('#qb').hide();
     $('#mu-so').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-2-black')
 })
 
 $('.intro__switch-link3').click(() => {
     $('#mu-so').hide();
     $('#qb').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-qb-2nd-generation')
 })
 
 $('.intro__switch-link4').click(() => {
     $('#qb').hide();
     $('#mu-so').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-2-black')
 })
+
+$('.intro__switch-link5').click(() => {
+    $('#mu-so').hide();
+    $('#qb').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-qb-2nd-generation')
+})
+
+$('.intro__switch-link6').click(() => {
+    $('#qb').hide();
+    $('#mu-so').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-2-black')
+})
+
 
 $('#dot1').click(() => {
     $('#mu-so').hide();
     $('#qb').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-qb-2nd-generation')
 })
 
 $('#dot2').click(() => {
     $('#qb').hide();
     $('#mu-so').show();
+    $('.header__button').attr('href', 'https://pult.ru/product/besprovodnaya-muzykalnaya-sistema-naim-mu-so-2-black')
 })
 
 
