@@ -1,0 +1,17 @@
+.button-buy {
+    display: block;
+    width: 100%;
+    padding: 12px 0;
+    border: 1px solid #4ac7e9;
+    color: #4ac7e9;
+    text-decoration: none;
+    text-align: center;
+    transition: all .3s;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.button-buy:hover {
+    background: #4ac7e9;
+    color: #fff;
+}

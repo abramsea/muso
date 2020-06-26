@@ -1,0 +1,10 @@
+.main-switchers {
+    display: flex;
+}
+
+.main-switcher {
+    margin: 0 24px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+

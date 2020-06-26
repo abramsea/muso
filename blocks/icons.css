@@ -1,0 +1,11 @@
+.icons {
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(140px, 1fr) );
+    margin: 40px 0;
+}
+
+.icon {
+    width: 132px;
+    display: block;
+    margin: 16px auto;
+}

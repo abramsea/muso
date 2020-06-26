@@ -1,0 +1,27 @@
+.chips1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chip {
+    display: flex;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.chip__image {
+    max-height: 14px;
+    margin: 0 12px 0 0;
+}
+
+p.chip__text {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+.chips2 {
+    display: flex;
+    flex-direction: column;
+}

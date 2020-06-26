@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-between;
     color: #fff;
-    padding: 0 0 0 76px;
+    padding: 0 0 0 68px;
 }
 
 .intro__text {
@@ -43,11 +43,13 @@
 
 
 .intro__footer {
+    max-width: 1920px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     z-index: 200;
     color: #f1f1f1;
-    padding: 0 76px 16px 76px;
+    padding: 0 68px 16px 68px;
     position: relative;
     left: 0;
     top: -100px;

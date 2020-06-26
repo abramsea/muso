@@ -1,0 +1,34 @@
+.info-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    align-items: center;
+}
+
+.info-block__title {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;
+}
+
+.info-block__text {
+    width: 50%;
+}
+
+.info-block__text p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+.info-block__link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4ac7e9;
+    text-decoration: none;
+}
+
+.info-block__image {
+    max-width: 100%;
+    align-self: center;
+}
