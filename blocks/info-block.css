@@ -1,8 +1,7 @@
 .info-block {
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
-    align-items: center;
+    padding: 100px 0 40px 0;
 }
 
 .info-block__title {
@@ -30,5 +29,14 @@
 
 .info-block__image {
     max-width: 100%;
+    align-self: center;
+}
+
+.apps {
+    display: flex;
+}
+
+.app__image {
+    max-width: 200px;
     align-self: center;
 }

@@ -1,0 +1,66 @@
+@keyframes spring {
+    50% {
+        transform: scale(1.4);
+    }
+
+    75% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1.3);
+    }
+}
+
+.colors {
+    display: flex;
+    max-width: 240px;
+    margin: 0 auto;
+}
+
+.color {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 60px;
+}
+
+.color:not(:first-of-type) {
+    margin: 0 0 0 5px;
+}
+
+.color-circle {
+    height: 33px;
+    width: 33px;
+    border-radius: 50%;
+    border: 1px solid #f1f1f1;
+    margin: auto;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+}
+
+.color-circle:hover {
+    animation: spring .3s;
+    animation-fill-mode: forwards;
+}
+
+.color-circle_black {
+    background: #000;
+}
+
+.color-circle_green {
+    background: #504e3d;
+}
+
+.color-circle_red {
+    background: #9a4936;
+}
+
+.color-circle_blue {
+    background: #007d98;
+}
+
+.color-circle_none {
+    background: #fff;
+}
