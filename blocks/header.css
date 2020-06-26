@@ -1,0 +1,42 @@
+.header {
+    padding: 0 0 0 76px;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 100;
+    border-bottom: 1px solid rgba(241, 241, 241, .5);
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    padding: 16px 0;
+}
+
+.header__logo_naim {
+    width: 105px;
+}
+
+.header__logo_pult {
+    width: 78px;
+}
+
+.header__button {
+    background: #4ac7e9;
+    color: #fff;
+    border: 1px solid #4ac7e9;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all .3s;
+    font-size: 20px;
+}
+
+.header__button:hover {
+    color: #4ac7e9;
+    background-color: #000;
+    border: 1px solid #4ac7e9;
+
+}

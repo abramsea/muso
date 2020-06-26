@@ -1,0 +1,99 @@
+.intro {
+    max-width: 1920px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+    left: 0;
+    background: #000;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 0 0 76px;
+}
+
+.intro__text {
+    width: 25%;
+    margin: 242px 0 0 0;
+}
+
+.intro__title {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;
+}
+
+.intro__subtitle {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.intro__switch-link {
+    color: #4ac7e9;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.intro__model {
+    width: 70%;
+}
+
+
+
+
+.intro__footer {
+    display: flex;
+    justify-content: space-between;
+    z-index: 200;
+    color: #f1f1f1;
+    padding: 0 76px 16px 76px;
+    position: relative;
+    left: 0;
+    top: -100px;
+    background: #000;
+}
+
+.lines {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    align-items: center;
+}
+
+.line {
+    background: #f1f1f1;
+    width: 52px;
+    height: 1px;
+    cursor: pointer;
+}
+
+.line_bold {
+    height: 4px;
+}
+
+.numbers-box {
+
+}
+
+.number {
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+.numbers {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+}
+
+.number_selected {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;
+}
+
+
+#qb {
+    display: none;
+}

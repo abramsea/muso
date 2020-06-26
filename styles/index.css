@@ -1,0 +1,15 @@
+@import url('../fonts/graphiklc.css');
+@import url('../blocks/header.css');
+@import url('../blocks/intro.css');
+@import url('../blocks/base.css');
+@import url('../blocks/malevich.css');
+@import url('../blocks/back-to-top.css');
+@import url('../blocks/footer.css');
+
+
+.model {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    border: none;
+}

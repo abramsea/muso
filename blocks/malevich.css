@@ -1,0 +1,19 @@
+.malevich1 {
+    width: 80px;
+    height: 80px;
+    background: #000;
+    position: relative;
+    right: 0;
+    top: 100px;
+    float: right;
+    z-index: 100;
+}
+
+.malevich2 {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    position: relative;
+    bottom: 100px;
+    left: 0;
+}
