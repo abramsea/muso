@@ -1,0 +1,28 @@
+.slider {
+    max-width: 1032px;
+    margin: 0 auto 60px auto;
+}
+
+.slider-item {
+
+}
+
+.slider-item__image {
+    max-width: 100%;
+}
+
+.slider-item__title {
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.slider-item__text {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 672px;
+    margin: 0 auto;
+}
