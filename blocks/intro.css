@@ -100,3 +100,45 @@
 #qb {
     display: none;
 }
+
+
+@media screen and (max-width:1279px) {
+    .intro {
+        padding: 0 40px;
+    }
+}
+
+
+@media screen and (max-width:1150px) {
+    .intro {
+        flex-direction: column;
+    }
+    .intro__text {
+        width: 100%;
+        margin: 100px 0 0 0;
+    }
+
+    .intro__model {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .intro {
+        padding: 0 16px;
+    }
+    .intro__title {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+    .intro__subtitle {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+    }
+    .intro__switch-link {
+        text-align: center;
+        display: block;
+    }
+}

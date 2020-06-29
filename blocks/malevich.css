@@ -4,7 +4,7 @@
     background: #000;
     position: relative;
     right: 0;
-    top: 100px;
+    top: 80px;
     float: right;
     z-index: 100;
 }
@@ -16,4 +16,17 @@
     position: relative;
     bottom: 100px;
     left: 0;
+}
+
+@media screen and (max-width:1600px) {
+    .malevich1 {
+        width: 50px;
+    }
+}
+
+
+@media screen and (max-width:860px) {
+    .malevich1 {
+        width: 40px;
+    }
 }

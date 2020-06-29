@@ -75,5 +75,18 @@
     .wrapper {
         padding: 0 16px;
     }
-   
+    .title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .video {
+        margin: 24px 0 40px 0;
+    }  
+}
+
+@media screen and (max-width: 420px) {
+    .video {
+        height: 200px;
+        margin: 20px 0 24px 0;
+    } 
 }

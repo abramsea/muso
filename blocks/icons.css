@@ -16,3 +16,23 @@
     display: block;
     margin: 16px auto;
 }
+
+
+
+@media screen and (max-width: 767px) {
+    .icons {
+        grid-template-columns: repeat( auto-fit, minmax(76px, 1fr) );
+        margin: 20px 0;
+    }
+    
+    .icon {
+        width: 72px;
+        margin: 12px auto;
+    }
+
+    .icon_reward {
+        max-width: 72px;
+        max-height: 40px;
+        margin: 12px auto;
+    }
+}
